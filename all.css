@@ -104,16 +104,17 @@ h1 {
   overflow: hidden;
 }
 .slide_cover {
+  height: 700px;
   height: 95vh;
 }
 .slide__bg {
   display: block;
   position: absolute;
-  min-width: 1024px;
   min-height: 100%;
-  width: 100%;
   height: auto;
   top: 0;
+  min-width: 1024px;
+  width: 100%;
   left: 0;
 }
 @media (max-width: 1024px) {
